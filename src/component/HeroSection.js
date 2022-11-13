@@ -19,6 +19,18 @@ const HeroSection = () => {
 						metaverse, get a chance to turn your imagination to reality at your
 						comfort zone
             </p>
+           <div>
+              <form className="flex">
+                <input
+                    type="text"
+                    placeholder="Search for location" 
+                    className="p-3 lg:p-4 w-[60%] outline-none border rounded-tl-[10px] rounded-bl-[10px] border-[#A3A3A3] text-xs"
+                />
+                <button className='px-6 lg:py-3 w-[40%] rounded-tr-[10px] rounded-br-[10px] bg-[#A02279] text-white font-normal text-xs lg:text-sm'>
+								Search
+							</button>
+              </form>
+           </div>  
         </div>
      </div>
     </>
