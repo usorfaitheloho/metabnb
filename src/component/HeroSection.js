@@ -14,6 +14,11 @@ const HeroSection = () => {
               <span> in the </span>
               <span className="text-[#A02279]"> Metaverse</span>
             </h1>
+            <p className="lg:w-[85%] mb-8 text-sm">
+            we provide you access to luxury and affordable houses in the
+						metaverse, get a chance to turn your imagination to reality at your
+						comfort zone
+            </p>
         </div>
      </div>
     </>
