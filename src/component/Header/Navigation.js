@@ -12,16 +12,15 @@ const Navigation = () => {
 	};
 
   return (
-    <header className="p-10">
-        <nav className="bg-white border-gray-200 px-2 md:px-4 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <nav className="bg-white border-gray-200 px-2 pt-4 md:px-4 sm:px-4 py-2.5 rounded dark:bg-gray-900">
             <div className="container flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
              
-            <span class="mr-3 h-6 sm:h-9">
+            <span class="flex items-center">
                 <Link to="/">
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" className="h-[15px] md:h-[20px] lg:h-[30px]" />
                 </Link>
             </span>
-                <div className="hidden justify-between flex gap-5 items-center w-full md:flex md:w-auto  text-[#434343] text-[20px]" id="navbar-cta">
+                <div className="w-[40%] justify-between hidden md:flex text-[#434343] text-sm" id="navbar-cta">
                     {data && data.map((item) => (
                         <ul key={item.id}>
                         <li><Link to={item.href}>{item.name}</Link></li>
@@ -77,7 +76,6 @@ const Navigation = () => {
             
         </nav>
 
-    </header>
   )
 }
 
