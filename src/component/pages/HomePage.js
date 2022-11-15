@@ -1,7 +1,8 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import Navigation from "../Header/Navigation";
 import HeroSection from "../HeroSection";
-import Inspiration from "../Header/Inspiration";
+import Inspiration from "../Inspiration";
 import NFTS from "../NFTS";
 
 
@@ -14,6 +15,7 @@ const HomePage = () => {
     <HeroSection />
     <Inspiration />
     <NFTS />
+    <Footer />
     </>
     
   );
