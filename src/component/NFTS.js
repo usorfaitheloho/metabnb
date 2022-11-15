@@ -18,7 +18,7 @@ const NFTS = () => {
                     Learn more
                 </button>
             </div>
-            <div className="md:w-[70%] hidden mx-auto lg:block lg:w-[50%]">
+            <div className="md:w-[70%] mx-auto lg:block lg:w-[50%]">
                 <img src={NFTBanner} alt="Banner" />
             </div>
         </div>
