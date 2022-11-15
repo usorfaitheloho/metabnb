@@ -1,5 +1,5 @@
 import React from "react";
-import NFTBanner from ""
+import NFTBanner from "../images/NFTBanner.png";
 
 const NFTS = () => {
   return (
