@@ -8,7 +8,7 @@ import sponsor3 from "../images/sponsor3.png";
 const HeroSection = () => {
   return (
     <>
-     <div className="pt-10 px-4 lg:px-8 py-4 lg:py-[3rem] max-w-[1200px] mx-auto flex items-center justify-between w-full">
+     <div className="pt-10 px-4 lg:px-8 py-4 lg:py-[3rem] max-w-[1200px] mx-auto flex flex-col lg:flex-row items-center justify-between w-full">
         <div className="md:w-[70%] lg:w[45%] text-center lg:text-left">
         <h1 className="text-[2rem] lg:text-[3.0rem] mb-8">
           <span>Rent a </span>
@@ -34,8 +34,7 @@ const HeroSection = () => {
                         Search
                   </button>
               </form>
-           </div> 
-         
+           </div>    
         </div>
         <div className="md:w-[45%] flex sm:w-48 md:block py-4">
                 <img src={Group1} alt="Group1" />
