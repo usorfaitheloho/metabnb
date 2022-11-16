@@ -29,7 +29,7 @@ const Navbar = ({handleModal}) => {
                     <img src={logo} alt="Logo" className="h-[15px] md:h-[20px] lg:h-[30px]" />
                 </Link>
             </span>
-                <div className={`${menuOpen ? "visible bottom-0 flex flex-col lg:flex-row pt-16 gap-y-12 items-center lg:gap-y-0 fixed lg:static w-[100%] h-full lg:w-max right-0 lg:h-max top-16 bottom-0 bg-[#A02279] text-[#fff] z-8 transition-all duration-1000 ease-in-out lg:transition-none" : "hidden justify-between -right-full" } w-[40%] lg:justify-between md:flex text-[#434343] text-sm`}>
+                <div className={`${menuOpen ? "visible bottom-0 flex flex-col lg:flex-row pt-16 gap-y-12 items-center lg:gap-y-0 fixed lg:static w-[100%] h-full lg:w-max right-0 lg:h-max top-16 bottom-0 bg-[#A02279] text-white z-8 transition-all duration-1000 ease-in-out lg:transition-none" : "hidden justify-between -right-full" } w-[40%] lg:justify-between md:flex text-white lg:text-[#434343] text-sm`}>
                     {data && data.map((item) => (
                         <ul key={item.id}>
                         <li><Link to={item.href} onClick={handleMenuOpen}>{item.name}</Link></li>
