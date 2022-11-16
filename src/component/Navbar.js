@@ -35,7 +35,7 @@ const Navbar = ({handleModal}) => {
                         <li><Link to={item.href} onClick={handleMenuOpen}>{item.name}</Link></li>
                         </ul>
                     ))}
-					 <span className="lg:hidden flex  md:w-auto">
+					 <span className="md:hidden flex  md:w-auto">
                     <button type="button" className="rounded-[10px] bg-[#fff] px-[21px] py-[12px] text-[#A02279]" onClick={handleFunctions}>Connect wallet</button>
                 </span>
                 </div>
