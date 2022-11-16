@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { InspirationData } from "./InspirationData";
+import { InspirationData } from "../data/InspirationData";
 
 const Inspiration = () => {
 	return (
